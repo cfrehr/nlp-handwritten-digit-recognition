@@ -20,6 +20,7 @@ II. RUN ARGS
 ------------
 
 numHidden | Integer that controls number of hidden layer nodes
+
 learnRate | Double that controls amount of change in arc weights
 maxEpoch  | Maximum number of epochs for training
 <train>	    | Training data for network
