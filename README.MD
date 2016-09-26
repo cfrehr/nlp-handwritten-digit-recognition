@@ -18,37 +18,37 @@ This NN was implemented using:
 
 II. RUN ARGS
 ------------
+Run Args:
 
-numHidden | Integer that controls number of hidden layer nodes
-
-learnRate | Double that controls amount of change in arc weights
-
-maxEpoch  | Maximum number of epochs for training
-
-train	    | Training data for network
-
-test      | Testing data for network
+- numHidden | Integer that controls number of hidden layer nodes
+- learnRate | Double that controls amount of change in arc weights
+- maxEpoch  | Maximum number of epochs for training
+- train	    | Training data for network
+- test      | Testing data for network
 
 Recommended args: 
 
-numHidden : "12" 
-
-learnRate : "0.001"
-
-maxEpoch  : "100"
-
-train	    : "train.txt"
-
-test      : "test.txt"
+- numHidden : "12"
+- learnRate : "0.001"
+- maxEpoch  : "100"
+- train	    : "train.txt"
+- test      : "test.txt"
 
 
 III. FILES
 ----------
 NNImpl.java       	(Cody Frehr)
+
 HW4.java		(Chuck Dyer)	
+
 Instance.java		(Chuck Dyer)
+
 Node.java		(Chuck Dyer)
+
 NodeWeightPair.java	(Chuck Dyer)
+
 train.txt
+
 test.txt
+
 view.py
